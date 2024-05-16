@@ -45,4 +45,13 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    testImplementation( "junit:junit:$jUnitVersion")
+    testImplementation("androidx.test:core:$androidXTestVersion")
+    // Optional -- Mockito framework
+    testImplementation ("org.mockito:mockito-core:$mockitoVersion")
+    // Optional -- mockito-kotlin
+    testImplementation ("org.mockito.kotlin:mockito-kotlin:$mockitoKotlinVersion")
+    // Optional -- Mockk framework
+    testImplementation ("io.mockk:mockk:$mockkVersion")
+
 }
